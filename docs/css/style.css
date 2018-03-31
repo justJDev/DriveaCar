@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+article, aside, figure, footer, header, hgroup,
+ menu, nav, section { display: block; }
+
+body {
+	background-color: #eaf4f6;
+	background: url(../img/background.png); 
+	text-align: center;
+	font: 20px  Verdana, Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+#wrapper {
+	width: 900px;
+	margin: 0 auto;
+}
+
+/* -- navigace -- */ 
+nav ul {
+        list-style-type: none;
+        float: right;
+}
+
+nav li {
+        float: left;
+        margin-right: 15px;
+}
+
+nav a {
+        background: orange;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 10px;
+        text-decoration: none;
+        border: none;
+        cursor: pointer;
+/* -- CSS3 Shadow - create a shadow around each input element -- */ 
+-webkit-box-shadow: 0px 0px 4px #5f5d5d;
+-moz-box-shadow: 0px 0px 4px #5f5d5d; 
+box-shadow: 0px 0px 4px #5f5d5d;
+ 
+/* -- CSS3 Transition - define what the transition will be applied to (i.e. the background) -- */        
+-webkit-transition: background 0.3s linear;
+}
+
+nav a:hover {
+background: #c13927;
+color: #EEEEEE;
+text-decoration: none;
+}
+
+#page {
+	text-align: left;
+}
+
+#neviditelny  {
+	height: 100px;
+}
+
+p {
+	margin: 0 0 18px 0;
+	line-height: 1.8;
+}
+
+header#listafixed {
+	top: 0;
+	position: fixed;
+	width: 100%;
+	line-height: 80px;
+  background: black;
+}
+section#lista  {
+    width: 850px;
+    text-align: right;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #2f3131;
+}
+section#box  {
+    border-radius: 5px;
+    background: white;
+    border: 1px solid #b8b8b8;
+    margin: 30px 0 15px 0;
+    padding: 30px;
+    color: #161616;
+    font-size: 15px;
+}
+
+
+
